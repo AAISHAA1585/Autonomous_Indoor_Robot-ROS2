@@ -1,0 +1,51 @@
+[0.407s] Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/src/indoor_robot -DCMAKE_INSTALL_PREFIX=/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot
+[0.599s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.088s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.338s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.841s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.850s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.879s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.945s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.288s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.305s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[29.426s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[29.530s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[29.532s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[29.554s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[29.613s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[29.637s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[29.645s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[30.122s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[33.281s] -- Added test 'flake8' to check Python code syntax and style conventions
+[33.459s] -- Added test 'lint_cmake' to check CMake code style
+[33.549s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[34.928s] -- Added test 'xmllint' to check XML markup files
+[35.320s] -- Configuring done
+[36.383s] -- Generating done
+[36.902s] -- Build files have been written to: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot
+[37.054s] Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/src/indoor_robot -DCMAKE_INSTALL_PREFIX=/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot
+[37.139s] Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot -- -j12 -l12
+[37.388s] Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot -- -j12 -l12
+[37.536s] Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot
+[37.560s] -- Install configuration: ""
+[37.584s] -- Execute custom install script
+[37.673s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/gazebo.launch.py
+[37.765s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//worlds/warehouse.world
+[37.828s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//models/robot.urdf.xacro
+[37.938s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/package_run_dependencies/indoor_robot
+[38.131s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/parent_prefix_path/indoor_robot
+[38.478s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.sh
+[38.529s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.dsv
+[38.574s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/path.sh
+[38.635s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/path.dsv
+[38.698s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.bash
+[38.769s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.sh
+[38.846s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.zsh
+[38.931s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.dsv
+[38.973s] -- Symlinking: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.dsv
+[39.313s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/packages/indoor_robot
+[39.416s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig.cmake
+[39.541s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig-version.cmake
+[39.877s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.xml
+[39.885s] Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot

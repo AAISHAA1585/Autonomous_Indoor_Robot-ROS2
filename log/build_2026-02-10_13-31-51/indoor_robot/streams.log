@@ -1,0 +1,27 @@
+[2.350s] Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot -- -j12 -l12
+[3.281s] Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot -- -j12 -l12
+[3.449s] Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot
+[3.490s] -- Install configuration: ""
+[3.535s] -- Execute custom install script
+[3.680s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/gazebo.launch.py
+[3.780s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/slam.launch.py
+[3.915s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//worlds/warehouse.world
+[4.045s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//models/robot.urdf.xacro
+[4.179s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/slam_params.yaml
+[4.853s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//rviz/slam.rviz
+[5.157s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/package_run_dependencies/indoor_robot
+[5.412s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/parent_prefix_path/indoor_robot
+[5.557s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.sh
+[5.695s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.dsv
+[5.808s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/path.sh
+[6.361s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/path.dsv
+[6.482s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.bash
+[6.569s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.sh
+[6.695s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.zsh
+[6.800s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.dsv
+[6.851s] -- Symlinking: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.dsv
+[7.421s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/packages/indoor_robot
+[7.990s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig.cmake
+[8.088s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig-version.cmake
+[8.157s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.xml
+[8.186s] Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot

@@ -1,0 +1,33 @@
+[0.648s] Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot -- -j12 -l12
+[1.522s] Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot -- -j12 -l12
+[1.662s] Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot
+[1.691s] -- Install configuration: ""
+[1.746s] -- Execute custom install script
+[2.001s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/gazebo.launch.py
+[2.110s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/navigation.launch.py
+[2.461s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/navigation_simple.launch.py
+[2.529s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/slam.launch.py
+[2.634s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//worlds/warehouse.world
+[2.773s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//models/robot.urdf.xacro
+[2.999s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/frames_2026-02-11_16.29.37.gv
+[3.118s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/frames_2026-02-11_16.29.37.pdf
+[3.243s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/nav2_params.yaml
+[3.687s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/slam_params.yaml
+[3.918s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//rviz/nav2.rviz
+[4.105s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//rviz/slam.rviz
+[4.360s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/package_run_dependencies/indoor_robot
+[4.958s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/parent_prefix_path/indoor_robot
+[5.071s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.sh
+[5.205s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.dsv
+[5.330s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/path.sh
+[5.491s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/path.dsv
+[5.601s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.bash
+[5.721s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.sh
+[5.856s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.zsh
+[6.330s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.dsv
+[6.373s] -- Symlinking: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.dsv
+[6.620s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/packages/indoor_robot
+[6.728s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig.cmake
+[6.884s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig-version.cmake
+[7.052s] -- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.xml
+[7.086s] Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot

@@ -1,0 +1,142 @@
+[1.218s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'indoor_robot']
+[1.218s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['indoor_robot'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76a551d27730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76a551d271f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76a551d271f0>>)
+[1.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.956s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extension 'ignore'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extension 'ignore_ament_install'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extensions ['colcon_pkg']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extension 'colcon_pkg'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extensions ['colcon_meta']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extension 'colcon_meta'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extensions ['ros']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/indoor_robot) by extension 'ros'
+[2.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/indoor_robot' with type 'ros.ament_cmake' and name 'indoor_robot'
+[2.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install
+[2.759s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /mnt/d/ros2_projects/ros2_ws/install
+[2.761s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 303 installed packages in /opt/ros/humble
+[2.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'cmake_args' from command line to 'None'
+[3.117s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'cmake_target' from command line to 'None'
+[3.134s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.147s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.165s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'cmake_clean_first' from command line to 'False'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'cmake_force_configure' from command line to 'False'
+[3.193s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'ament_cmake_args' from command line to 'None'
+[3.201s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.205s] Level 5:colcon.colcon_core.verb:set package 'indoor_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.210s] DEBUG:colcon.colcon_core.verb:Building package 'indoor_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot', 'merge_install': False, 'path': '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/src/indoor_robot', 'symlink_install': False, 'test_result_base': None}
+[3.215s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.222s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/src/indoor_robot' with build type 'ament_cmake'
+[3.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/src/indoor_robot'
+[3.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot -- -j12 -l12
+[5.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot -- -j12 -l12
+[5.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot
+[11.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(indoor_robot)
+[11.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot
+[11.350s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot' for CMake module files
+[12.506s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot' for CMake config files
+[13.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('indoor_robot', 'cmake_prefix_path')
+[13.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/hook/cmake_prefix_path.ps1'
+[13.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/hook/cmake_prefix_path.dsv'
+[13.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/hook/cmake_prefix_path.sh'
+[13.910s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/bin'
+[13.917s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/lib/pkgconfig/indoor_robot.pc'
+[13.925s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/lib/python3.10/site-packages'
+[13.934s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/bin'
+[13.943s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.ps1'
+[14.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.dsv'
+[14.371s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.sh'
+[14.658s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.bash'
+[14.785s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.zsh'
+[14.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/colcon-core/packages/indoor_robot)
+[15.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(indoor_robot)
+[15.083s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot' for CMake module files
+[16.284s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot' for CMake config files
+[16.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('indoor_robot', 'cmake_prefix_path')
+[16.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/hook/cmake_prefix_path.ps1'
+[17.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/hook/cmake_prefix_path.dsv'
+[17.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/hook/cmake_prefix_path.sh'
+[17.532s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/bin'
+[17.541s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/lib/pkgconfig/indoor_robot.pc'
+[17.550s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/lib/python3.10/site-packages'
+[17.560s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/bin'
+[17.570s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.ps1'
+[17.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.dsv'
+[17.763s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.sh'
+[17.865s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.bash'
+[17.974s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.zsh'
+[18.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/colcon-core/packages/indoor_robot)
+[18.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.134s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.895s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[18.897s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.899s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.900s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.904s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[18.906s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.907s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/local_setup.ps1'
+[19.026s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/_local_setup_util_ps1.py'
+[19.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/setup.ps1'
+[19.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/local_setup.sh'
+[19.389s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/_local_setup_util_sh.py'
+[19.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/setup.sh'
+[19.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/local_setup.bash'
+[19.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/setup.bash'
+[19.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/local_setup.zsh'
+[19.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/setup.zsh'

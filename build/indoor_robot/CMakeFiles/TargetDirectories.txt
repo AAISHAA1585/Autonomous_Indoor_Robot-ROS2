@@ -1,0 +1,9 @@
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/uninstall.dir
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/indoor_robot_uninstall.dir
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/test.dir
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/edit_cache.dir
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/rebuild_cache.dir
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/list_install_components.dir
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/install.dir
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/install/local.dir
+/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot/CMakeFiles/install/strip.dir

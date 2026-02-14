@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000926] (indoor_robot) JobQueued: {'identifier': 'indoor_robot', 'dependencies': OrderedDict()}
+[0.001976] (indoor_robot) JobStarted: {'identifier': 'indoor_robot'}
+[0.096571] (-) TimerEvent: {}
+[0.197693] (-) TimerEvent: {}
+[0.284795] (indoor_robot) JobProgress: {'identifier': 'indoor_robot', 'progress': 'cmake'}
+[0.297814] (-) TimerEvent: {}
+[0.357110] (indoor_robot) JobProgress: {'identifier': 'indoor_robot', 'progress': 'build'}
+[0.369524] (indoor_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot', '--', '-j12', '-l12'], 'cwd': '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vishal'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vishal'), ('OLDPWD', '/home/vishal'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install:/mnt/d/ros2_projects/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vishal'), ('NAME', 'Vishal'), ('WSL_INTEROP', '/run/WSL/3181_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/d/software2/:/mnt/d/software2/bin:/mnt/c/Users/Vishal/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Vishal/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Vishal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Vishal/Software/modelsim_ase/win32aloem:/mnt/c/Users/Vishal/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Vishal/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Vishal/AppData/Local/Programs/Ollama:/mnt/c/Users/Vishal/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.397893] (-) TimerEvent: {}
+[0.498702] (-) TimerEvent: {}
+[0.677068] (-) TimerEvent: {}
+[0.781203] (-) TimerEvent: {}
+[0.882007] (-) TimerEvent: {}
+[0.983063] (-) TimerEvent: {}
+[0.986913] (indoor_robot) CommandEnded: {'returncode': 0}
+[1.046001] (indoor_robot) JobProgress: {'identifier': 'indoor_robot', 'progress': 'install'}
+[1.064274] (indoor_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot'], 'cwd': '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vishal'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vishal'), ('OLDPWD', '/home/vishal'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install:/mnt/d/ros2_projects/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vishal'), ('NAME', 'Vishal'), ('WSL_INTEROP', '/run/WSL/3181_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/d/software2/:/mnt/d/software2/bin:/mnt/c/Users/Vishal/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Vishal/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Vishal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Vishal/Software/modelsim_ase/win32aloem:/mnt/c/Users/Vishal/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Vishal/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Vishal/AppData/Local/Programs/Ollama:/mnt/c/Users/Vishal/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/build/indoor_robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.083182] (-) TimerEvent: {}
+[1.104932] (indoor_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.165764] (indoor_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.183333] (-) TimerEvent: {}
+[1.284222] (-) TimerEvent: {}
+[1.291192] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/gazebo.launch.py\n'}
+[1.368302] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/navigation.launch.py\n'}
+[1.384379] (-) TimerEvent: {}
+[1.454055] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/navigation_simple.launch.py\n'}
+[1.484649] (-) TimerEvent: {}
+[1.548740] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//launch/slam.launch.py\n'}
+[1.584830] (-) TimerEvent: {}
+[1.691056] (-) TimerEvent: {}
+[1.792090] (-) TimerEvent: {}
+[1.931423] (-) TimerEvent: {}
+[1.957246] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//worlds/warehouse.world\n'}
+[2.031602] (-) TimerEvent: {}
+[2.061267] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//models/robot.urdf.xacro\n'}
+[2.131838] (-) TimerEvent: {}
+[2.176685] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/frames_2026-02-11_16.29.37.gv\n'}
+[2.231958] (-) TimerEvent: {}
+[2.248108] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/frames_2026-02-11_16.29.37.pdf\n'}
+[2.316288] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/nav2_params.yaml\n'}
+[2.332117] (-) TimerEvent: {}
+[2.337245] (indoor_robot) StdoutLine: {'line': b'-- Symlinking: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/nav2_params.yaml.save\n'}
+[2.432269] (-) TimerEvent: {}
+[2.454693] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//config/slam_params.yaml\n'}
+[2.532444] (-) TimerEvent: {}
+[2.555173] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//rviz/nav2.rviz\n'}
+[2.632677] (-) TimerEvent: {}
+[2.670357] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot//rviz/slam.rviz\n'}
+[2.732788] (-) TimerEvent: {}
+[2.794086] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/package_run_dependencies/indoor_robot\n'}
+[2.832960] (-) TimerEvent: {}
+[2.893995] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/parent_prefix_path/indoor_robot\n'}
+[2.933163] (-) TimerEvent: {}
+[2.940505] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.sh\n'}
+[3.033387] (-) TimerEvent: {}
+[3.211803] (-) TimerEvent: {}
+[3.327882] (-) TimerEvent: {}
+[3.377566] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/ament_prefix_path.dsv\n'}
+[3.420320] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/path.sh\n'}
+[3.428063] (-) TimerEvent: {}
+[3.474260] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/environment/path.dsv\n'}
+[3.521300] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.bash\n'}
+[3.528191] (-) TimerEvent: {}
+[3.570253] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.sh\n'}
+[3.617374] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.zsh\n'}
+[3.628446] (-) TimerEvent: {}
+[3.672174] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/local_setup.dsv\n'}
+[3.692293] (indoor_robot) StdoutLine: {'line': b'-- Symlinking: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.dsv\n'}
+[3.728632] (-) TimerEvent: {}
+[3.830251] (-) TimerEvent: {}
+[3.866986] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/ament_index/resource_index/packages/indoor_robot\n'}
+[3.919108] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig.cmake\n'}
+[3.930433] (-) TimerEvent: {}
+[3.971633] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/cmake/indoor_robotConfig-version.cmake\n'}
+[4.022244] (indoor_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/d/ROS2_PROJECTS/autonomous_indoor_robot/install/indoor_robot/share/indoor_robot/package.xml\n'}
+[4.030848] (-) TimerEvent: {}
+[4.031475] (indoor_robot) CommandEnded: {'returncode': 0}
+[4.130979] (-) TimerEvent: {}
+[4.232866] (-) TimerEvent: {}
+[4.333653] (-) TimerEvent: {}
+[4.541426] (-) TimerEvent: {}
+[4.647356] (-) TimerEvent: {}
+[4.748162] (-) TimerEvent: {}
+[4.848815] (-) TimerEvent: {}
+[4.950117] (-) TimerEvent: {}
+[5.051222] (-) TimerEvent: {}
+[5.152600] (-) TimerEvent: {}
+[5.253651] (-) TimerEvent: {}
+[5.354259] (-) TimerEvent: {}
+[5.454880] (-) TimerEvent: {}
+[5.555606] (-) TimerEvent: {}
+[5.755123] (-) TimerEvent: {}
+[5.856194] (-) TimerEvent: {}
+[5.957717] (-) TimerEvent: {}
+[6.058471] (-) TimerEvent: {}
+[6.092710] (indoor_robot) JobEnded: {'identifier': 'indoor_robot', 'rc': 0}
+[6.130224] (-) EventReactorShutdown: {}
