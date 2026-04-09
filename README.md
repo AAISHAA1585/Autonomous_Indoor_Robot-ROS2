@@ -476,7 +476,7 @@ Contributions welcome! Please follow these steps:
 
 ## 📧 Contact
 
-**Your Name** - Aishwarya Suryawanshi
+**Name** - Aishwarya Suryawanshi
 
 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/aishwarya-suryawanshi-aa20ba27a/)
 
